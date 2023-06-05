@@ -3,7 +3,6 @@ import calculator
 
 
 class Testcase(unittest.TestCase):
-
     def test_add(self):
         self.assertEqual(calculator.add(2, 3), 5)
 
@@ -19,5 +18,5 @@ class Testcase(unittest.TestCase):
             calculator.divide(6, 0)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
