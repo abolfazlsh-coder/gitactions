@@ -11,4 +11,4 @@ jobs:
       - name: Test
         uses: onichandame/python-test-action@master
         with:
-          deps_list: ''
+          deps_list: ['']
